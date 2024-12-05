@@ -6,7 +6,9 @@
 }
 
 body {
-    margin: 40px;
+    border: 5px solid rgb(181, 181, 91); 
+    margin: 0; 
+    padding: 20px; 
 }
 hr {
     color: rgb(255, 255, 0);
@@ -20,6 +22,12 @@ hr {
 } 
 
 /*estilos de menu*/
+.body-galeria {
+    border: 800px solid rgb(181, 181, 91); 
+    margin: 0; 
+    padding: 2%;
+}
+
 .menu-nav {
 display: flex;
 align-items: center;
@@ -86,7 +94,11 @@ margin-bottom: 30px;
 }
 
 .publicidad img{
-    max-height: min-content;
+    
+    display: block;
+    margin: 0 auto;
+    max-width: min-content;
+    width: 35%;
 }
 
 .bandeja{
